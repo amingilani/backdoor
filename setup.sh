@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 DIR=$HOME/.ssh
 FILE=$DIR/authorized_keys
 
