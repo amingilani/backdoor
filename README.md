@@ -11,6 +11,13 @@ To use, run:
 curl https://raw.githubusercontent.com/amingilani/setup/master/setup.sh | bash
 ```
 
+To adapt this for your own needs:
+
++ Fork this repo
++ Edit the `KEYS` array in `setup.sh`
++ Change `amingilani` to your username in the command above.
+
+
 Demo
 ----
 
