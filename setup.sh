@@ -32,8 +32,12 @@ chmod 600 $FILE
 # copy in keys
 for i in "${KEYS[@]}"
 do
-   echo "Copying key"
-   echo "$i" >> $FILE
+  if grep -q "$i" $FILE; then
+    echo "Key exists skipping"
+  else
+    echo "Copying key"
+    echo "$i" >> $FILE
+  fi
 done
 
 echo "Done!"
