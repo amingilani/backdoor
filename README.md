@@ -8,7 +8,7 @@ keys that already exist
 To use, run:
 
 ```
-curl https://raw.githubusercontent.com/amingilani/setup/master/setup.sh | bash
+curl https://raw.githubusercontent.com/amingilani/backdoor/master/setup.sh | bash
 ```
 
 To adapt this for your own needs:
