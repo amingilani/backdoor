@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+today=`date '+%Y_%m_%d__%H_%M_%S'`
+
 DIR="$HOME/.ssh"
 FILE="$DIR/authorized_keys"
 declare -a KEYS=(
@@ -17,7 +19,7 @@ fi
 
 # ensure authorized_keys exists
 if [ -f $FILE ]; then
-    BACKUP="$FILE.pre-gilani.backup"
+    BACKUP="$FILE.$today.backup"
 
     echo "Backing up existing $FILE to $BACKUP"
     cp $FILE $BACKUP
