@@ -1,7 +1,7 @@
-SETUP
------
+Backdoor (not really)
+---------------------
 
-My script to setup persistent access to VPS nodes. It copies my SSH key
+My convenience script to setup password-less access to VPS nodes. It copies my SSH key
 to `authorized_keys`, backs up existing `authorized_keys`, and doesn't copy
 keys that already exist
 
